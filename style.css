@@ -82,13 +82,13 @@ header i:hover {
 }
 .about img{
 	height: auto;
-	width: 430px;
+	width: 250px;
 }
 .about-text{
 	width: 550px;
 }
 .main{
-	width: 1130px;
+	width: 130px;
 	max-width: 95%;
 	margin: 0 auto;
 	display: flex;
