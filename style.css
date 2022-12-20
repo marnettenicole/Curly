@@ -62,10 +62,7 @@ header i:hover {
 	min-height: 100vh;
 }
 .body {
-	
-	<div style = "display :flex; justify content: center; align-items: center; height:100%;
-	   <img src="picture2.jpg" alt="">
-	</div>
+	display:  flex;
 }
 .section-1 {
 	width: 100%;
@@ -144,6 +141,10 @@ header i:hover {
 }
 
 
+
+
+
+	
 
 
 
