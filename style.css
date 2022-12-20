@@ -33,6 +33,29 @@ body{
 	border-radius: 50%;
 	margin: 0 auto;
 }
+.wrapper .sidebar .profile h3{
+	color: #ffffff;
+	margin: 10px 0 5px;
+}
+.wrapper .sidebar .profile p{
+	color: rgb(206, 204, 253);
+	font-size: 14px;
+}
+.wrapper .sidebar ul li a{
+	display: block;
+	padding: 13px 30px;
+	border-bottom: 10x solid #10558d;
+	color: rgb(241, 237, 237);
+	font-size: 16px;
+	position: relative;
+}
+
+
+
+
+
+
+
 
 
 
