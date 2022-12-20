@@ -82,13 +82,13 @@ header i:hover {
 }
 .about img{
 	height: auto;
-	width: 250px;
+	width: 150px;
 }
 .about-text{
 	width: 550px;
 }
 .main{
-	width: 500px;
+	width: 250px;
 	max-width: 95%;
 	margin: 0 auto;
 	display: flex;
@@ -113,7 +113,7 @@ header i:hover {
 	color: #fcfc;
 	letter-spacing: 1px;
 	line-height: 28px;
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 45px;
 }
 .side-bar ul{
