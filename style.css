@@ -50,6 +50,11 @@ body{
 	position: relative;
 	font-family: 'open sans', sans-serif;
 }
+.wrapper .sidebar ul li a .icon{
+	color: #dee4ec;
+	width: 30px;
+	display: inline-block;
+}
 body{
 	background: #f5f6fa;
 }
@@ -62,8 +67,11 @@ body{
 	padding: 20px 0;
 	transition: all 0.5s ease;
 }
-	
+	.wrapper .sidebar .profile{
+	margin-bottom: 30px;
+	text-align: center;
 }
+
 
 
 
