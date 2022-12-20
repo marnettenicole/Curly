@@ -1,7 +1,8 @@
 *{
 	  margin: 0;
 	  padding: 0;
-	  font-family: Georgia, 'Times New Roman', Times,serif00;
+	  font-family: Georgia, 'Times New Roman', Times,serif;
+	  box-sizing: border-box
 }
 body{
 	background: url(picture2.jpg) no-repeat;
@@ -9,6 +10,14 @@ body{
 	background-size: cover;
 	background-position: center;
 }
+header{
+	width: 100$;
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background: rgba(0, 0, 0, 0.2);
 *{
 	 list-style: none;
 	 text-decoration: none;
