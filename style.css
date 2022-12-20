@@ -1,113 +1,147 @@
-*{
-	 margin: 0;
-	 padding: 0;
-	 font-family: Georgia, 'Times New Roman', Times, serif;
-}
-body{
-	background: url(picture2.jpg) no-repeat;
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-
+.header{
+	width:  100%;
+	background-color: rgba(0, 0, 0, .2);
 }
 
-*{
-	 list-style: none;
-	 text-decoration: none;
-	 margin: 0;
-	 padding: 0;
-	 box-sizing: border-box;
-	 font-family: 'open sans', sans-serif;
+.header ul{
+	text-align: center;
 }
 
-
-body{
-	  background: #f5f6fa;
-}
-.wrapper .sidebar{
-	background: rgb(5, 68, 104);
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 225px;
-	height: 100px;
-	padding: 20px;
-	transition: all 0.5s ease;
-}
-.wrapper .sidebar .profile{
-	 margin-bottom: 30px;
-	 text-align: center;
-}
-.wrapper .sidebar .profile img{
-	display: block;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	margin: 0 auto;
-}
-.wrapper .sidebar .profile h3{
-	color: #ffffff;
-	margin: 10px 0 5px;
-}
-.wrapper .sidebar .profile p{
-	color: rgb(206, 204, 253);
-	font-size: 14px;
-}
-.wrapper .sidebar ul li a{
-	display: block;
-	padding: 13px 30px;
-	border-bottom: 1px solid #10558d;
-	color: rgb(241, 237, 237);
-	font-size: 16px;
-	position: relative;
-	font-family: 'open sans', sans-serif;
-}
-.wrapper .sidebar ul li a .icon{
-	color: #dee4ec;
-	width: 30px;
+.header ul li{
+	list-style: none;
 	display: inline-block;
 }
 
-/* link hover*/
-.wrapper .sidebar ul li a:hover,
-.wrapper .sidebar ul li a.active{
-	color: #0c7db1;
-	background: whitesmoke;
-	border-right: 2px solid rgb(5, 68, 104);
-}
-.wrapper .sidebar ul li a:hover .icon,
-.wrapper .sidebar ul li a.active .icon{
-	color: #0c7db1;
-}
-.wrapper .sidebar ul li a:hover::before,
-.wrapper .sidebar ul li a.active::before{
+.header ul li a{
 	display: block;
-
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+.header ul li a:hover{
+	background-color: #211b4385;
 }
 
-body{
-	background: #f5f6fa;
+.u-name {
+	font-size: 20px;
+	padding-left: 17px;
 }
-.wrapper .sidebar{
-	background: rgb(5, 68, 104);
-	position: fixed;
-	top: 0;
-	width: 225px;
-	height: 100%;
-	padding: 20px 0;
-	transition: all 0.5s ease;
+.u-name b {
+	color: #127b8e;
 }
-.wrapper .sidebar .profile{
-	margin-bottom: 30px;
+.header i {
+	font-size: 30px;
+	cursor: pointer;
+	color: #fff;
+}
+header i:hover {
+	color: #127b8e;
+}
+.user-p {
 	text-align: center;
+	padding-left: 10px;
+	padding-top: 25px;
 }
-header{
+.user-p img {
+	width: 100px;
+	border-radius: 50%;
+}
+.user-p h4 {
+	color:  #ccc;
+	padding: 5px 0;
+}
+.side-bar {
+	width: 250px;
+	background: #262931;
+	min-height: 100vh;
+}
+.body {
+	display:  flex;
+}
+.section-1 {
 	width: 100%;
-	height: 75px;
+	background: url("picture2.jpg");
+	background-size: cover;
+	background-position: center;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	padding: 30px 10%;
-	background: rgba(0, 0, 0, 0.2);
+	flex-direction: column;
 }
 
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 20px;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.side-bar ul{
+	margin-top: 20px;
+	list-style: none;
+}
+.side-bar ul li {
+	font-size: 16px;
+	padding: 15px 0px;
+	padding-left: 20px;
+	transition: 500ms background;
+}
+.side-bar ul li:hover {
+	background: #127b8e;
+}
+.side-bar ul li a {
+	text-decoration: none;
+	color: #eee;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+.side-bar ul li a i {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 23px;
+}
+
+
+
+
+
+	
