@@ -81,14 +81,14 @@ header i:hover {
 	background-color: #191919;
 }
 .about img{
-	height: 150;
-	width: 100px;
+	height: 100;
+	width: 10px;
 }
 .about-text{
 	width: 550px;
 }
 .main{
-	width: 250px;
+	width: 150px;
 	max-width: 95%;
 	margin: 0 auto;
 	display: flex;
