@@ -1,7 +1,17 @@
-
-
-
-
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	font-family: montserrat;
+}
+nav{
+	height: 80px;
+	width: 100%;
+	background: #4495e3;
+}
 
 .menu_bar {
   background-color: var(--color-black);
@@ -156,6 +166,13 @@ body{
 	margin-left: 225px;
 	transition: all 0.5s ease;
 }
+
+
+
+
+
+
+
 
 
 
