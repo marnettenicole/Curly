@@ -17,15 +17,15 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
-    font-weight: 600;
-    padding: 25px;
-    transition: all ease 0.5s;
+        font-weight: 600;
+        padding: 20px;
+        transition: all ease 0.5s;
 }
 .header ul li a:hover{
-	background-color: #211b4385;
+	background-color: #FFE4C4;
 }
 
 .u-name {
