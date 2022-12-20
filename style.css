@@ -7,9 +7,9 @@
 body{
 	font-family: montserrat;
 }
-nav{
+div{
 	height: 80px;
-	width: 100%;
+	width: 80%;
 	background: #4495e3;
 }
 
