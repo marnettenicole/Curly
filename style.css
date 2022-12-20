@@ -17,15 +17,15 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 15px;
+	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
-        font-weight: 600;
-        padding: 20px;
-        transition: all ease 0.5s;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
 }
 .header ul li a:hover{
-	background-color: #FFE4C4;
+	background-color: #211b4385;
 }
 
 .u-name {
@@ -82,13 +82,13 @@ header i:hover {
 }
 .about img{
 	height: auto;
-	width: 250px;
+	width: 430px;
 }
 .about-text{
 	width: 550px;
 }
 .main{
-	width: 130px;
+	width: 1130px;
 	max-width: 95%;
 	margin: 0 auto;
 	display: flex;
@@ -142,6 +142,9 @@ header i:hover {
 
 
 
+
+
+	
 
 
 	
