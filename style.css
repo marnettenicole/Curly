@@ -81,8 +81,8 @@ header i:hover {
 	background-color: #191919;
 }
 .about img{
-	height: auto;
-	width: 150px;
+	height: 150;
+	width: 100px;
 }
 .about-text{
 	width: 550px;
