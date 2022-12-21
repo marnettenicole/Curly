@@ -22,9 +22,9 @@ nav ul{
     display: flex;
 }
 nav ul li a{
-    line height: 120px;
+    line height: 110px;
     color:#fff;
-    padding: 95px 95px;
+    padding: 85px 85px;
     text-decoration: none;
     font-size:25px;
     font-weight: bold;
