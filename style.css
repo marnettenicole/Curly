@@ -24,9 +24,9 @@ nav ul{
 nav ul li a{
     line height: 80px;
     color:#fff;
-    padding: 12px 30px;
+    padding: 30px 30px;
     text-decoration: none;
-    font-size:14px;
+    font-size:25px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -41,10 +41,6 @@ section{
     background-size: cover;
     background-position: center;
 }
-
-
-
-
 
 *{
     list style: none;
