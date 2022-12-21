@@ -30,8 +30,8 @@ nav ul li a{
     font-weight: bold;
     text-transform: uppercase;
 }
-nav ul li :hover;
-    background: rgba(0,0,0,0.7);
+nav ul li a:hover;
+    background: rgb(131, 137, 150 );
     border-radius: 10px;
 }
 section{
