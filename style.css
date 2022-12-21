@@ -22,7 +22,7 @@ nav ul{
     display: flex;
 }
 nav ul li a{
-    line height: 110px;
+    line height: 100px;
     color:#fff;
     padding: 98px 98px;
     text-decoration: none;
@@ -37,7 +37,7 @@ nav ul li a:hover;
 section{
     width: 100%;
     height: 100vh;
-    background: url("picture2.jpg");
+    background: url(picture2.jpg);
     background-size: cover;
     background-position: center;
 }
