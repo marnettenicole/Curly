@@ -24,14 +24,14 @@ nav ul{
 nav ul li a{
     line height: 100px;
     color:#fff;
-    padding: 70px 100px;
+    padding: 90px 120px;
     text-decoration: none;
-    font-size:35px;
+    font-size:40px;
     font-weight: bold;
     text-transform: uppercase;
 }
 nav ul li a:hover;
-    background: rgb(131, 137, 150 );
+    background: rgba(0,0,0,0.2);
     border-radius: 10px;
 }
 section{
