@@ -41,6 +41,20 @@ section{
     background-size: cover;
     background-position: center;
 }
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: verdana;
+    text-align: center;
+}
+.container:hover .overlay{
+    opacity: 0.8;
+}
+    
 *{
     list style: none;
     text-decoration: none;
