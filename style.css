@@ -80,7 +80,7 @@ body{
      margin-bottom: 30px;
      text-align: center;
 }
-.wrapper . sidebar .profile img(
+.wrapper . sidebar .profile img{
     display: block;
     width: 100px;
     height: 100px;
