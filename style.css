@@ -92,6 +92,34 @@ body{
      margin: 10px 0 5px;
 }
 .wrapper .sidebar .profile p{
+    color: rgb(206, 204, 253);
+    font-size: 14px;
+}
+.wrapper .sidebar ul li a{
+     diplay: block;
+     padding: 13px 30px;
+     border-bottom: 1px solid #10558d;
+     color: rgb(225,228,225);
+     font-size: 16px;
+     position: relative;
+     font-family: 'open sans', sans-serif;
+}
+.wrapper .sidebar ul li a .icon{
+     color: #da70d6;
+     display: inline-block;
+}
+
+/* line hover*/
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+     color: #dda0dd;
+     background: white;
+     border-right: 2px solid rgb(5,68,104);
+}
+.wrapper .sidebar ul li a:hover::before,
+.wrapper .sidebar ul li a:active::before{
+     display: block; 
+}
 
 
 
